@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  margin: 0;
+  font-family: 'Your Preferred Font', sans-serif;
+  color: #fff;
+}
+
+/* Nav CSS Start */
+nav {
+  background-color: #2c3e50;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3498db;
+}
+
+/* Responsive  */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
+/* Nav CSS End */
